@@ -1,7 +1,8 @@
 # DANTEml - DANTE for (m)ulti(l)ayer network alignment
 DANTEml is a software tool for the pairwise global alignment of multilayer networks (MLNs), based on an our existing method optimized for dynamic networks (i.e., DANTE, https://github.com/pietrocinaglia/dante).
 
-We tested DANTEml on macOS (v.13, Apple M1).
+We tested DANTEml on macOS (v.13, Apple M1) with Python v3.10 and v3.11.
+
 
 ## Requirements
 DANTEml needs Python >= 3.9, and the packages listed into 'requirements.txt'. The latter may be installed automatically by using [Python Package Installer (pip)](https://pip.pypa.io/en/stable/):
@@ -16,7 +17,23 @@ or (alias: pip=pip3):
 pip install -r requirements.txt
 ```
 
-<br />
+
+## Help
+
+DANTEml [-h] -s SOURCE -t TARGET [-sm SIMILARITY_MATRIX] -o OUTPUT
+
+Options:
+
+  -h, --help : Show this help message and exit
+
+  -s SOURCE, --source SOURCE : Path of Multilayer Network 1 (G, source).
+
+  -t TARGET, --target TARGET : Path of Multilayer Network 1 (G, source).
+
+  -sm SIMILARITY_MATRIX, --similarity_matrix SIMILARITY_MATRIX : Path of the existing Node Similarities as 'Similarity Matrix (.sm)' file format; compression: gzip.
+
+  -o OUTPUT, --output OUTPUT : Output filename (Default: 'output.txt').
+
 
 ## Run the toy example
 You may use the dataset included into this repository ('toy_example'), for demonstration purposes only, as follows:

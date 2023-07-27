@@ -1,9 +1,9 @@
-gensim==4.3.0
+gensim==4.3.1
 joblib==1.2.0
 networkx==2.8.6
-numpy==1.23.2
-scipy==1.9.0
+numpy==1.23.2pip3 
 six==1.16.0
-smart-open==6.1.0
 tqdm==4.64.0
 unipath==1.1
+pandas==2.0.3
+argparse==1.4.0
