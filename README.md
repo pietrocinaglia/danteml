@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ## Help
 
-DANTEml [-h] -s SOURCE -t TARGET [-sm SIMILARITY_MATRIX] -o OUTPUT
+./DANTEml [-h] -s SOURCE -t TARGET [-sm SIMILARITY_MATRIX] -o OUTPUT
 
 Options:
 
