@@ -1,9 +1,8 @@
 gensim==4.3.1
 joblib==1.2.0
 networkx==2.8.6
-numpy==1.23.2pip3 
-six==1.16.0
-tqdm==4.64.0
-unipath==1.1
+numpy==1.23.2
 pandas==2.0.3
-argparse==1.4.0
+setuptools==65.5.0
+tqdm==4.64.0
+Unipath==1.1
