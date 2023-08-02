@@ -3,6 +3,7 @@ joblib==1.2.0
 networkx==2.8.6
 numpy==1.23.2
 pandas==2.0.3
+PySimpleGUI==4.60.5
 setuptools==65.5.0
 tqdm==4.64.0
 Unipath==1.1
